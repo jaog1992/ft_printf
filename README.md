@@ -1,9 +1,9 @@
 <h1 align="center">
-	📖 printf - (:exclamation: Ongoing)
+	📖 ft_printf
 </h1>
 
 <p align="center">
-	<b><i>How can we print variable values on the terminal?</i></b><br>
+	<b><i>Custom printf function for printing variable values on the terminal</i></b><br>
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
@@ -15,15 +15,11 @@
 
 ---
 
-## 💡 About the project
+## 💡 About
 
-> _The aim of this project is to code a function that emulates the behaviour of the stdio.h printf._
+The purpose of this project is to code a function that emulates the behavior of the stdio.h printf. The function will allow users to print the string value of function variables on the terminal in a similar way to the standard printf function. After completing this project, you will be familiar with variable argument inputs.
 
-	This project consists of coding a function that is able to print the string value of a function
-	variables on the terminal, on a similar way that the stdio printf does it.
-	After finishing this project, you will be familiar with managament variable argument inputs.
- 
- Implemented variable value convertions: **cspdiux%**:
+Implemented variable value convertions: **cspdiux%**:
 
 Acronym  | Variable convertion
 ------------- | -------------
@@ -37,32 +33,33 @@ Acronym  | Variable convertion
 %X  | Number in hex format in uppercase
 %%  | Prints the '%' symbol
 
-
 ## 🛠️ Usage
 
 ### Requirements
 
-You will need a **`gcc` compiler**, the `libft` functions and the `stdio` standard **C libraries** to run it and make tests.
+You will need a **`gcc` compiler**, the `libft` functions and the `stdarg` standard **C libraries** to run it and make tests.
 
 ### Instructions
 
 **1. Using it in your code**
 
-To use the function in your code, simply include th header:
+Include the header in your code:
 
 ```C
 #include "ft_printf.h"
 ```
 **2. Compilation**
 
-For compiling the code use the Makefile or add the source files and the required flags
+Compile the code using the Makefile or by adding the source files and required flags:
 
 ```shell
 gcc -Wall -Wextra -Werror <*.c files>
 ```
 
+Keep in mind that this ft_printf code is using some custom libft functions that should be added to the *.c files list.
+
 ## 📋 Testing
 
-I recommend uncommenting and playing with the main function and also using this third party tester to fully test the project
+To fully test the project, we recommend using the following third-party tester:
 
 * [Tripouille/gnlTester](https://github.com/Tripouille/gnlTester)
